@@ -10,7 +10,7 @@
     "pm2:prod": "pm2 start ecosystem.config.js --env production",
     "pm2:dev": "pm2 start ecosystem.config.js --env development",
     "lint-staged": "lint-staged",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.1.0",
