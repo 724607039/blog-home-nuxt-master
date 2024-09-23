@@ -65,6 +65,7 @@
       width: 50%;
       height: 40vh;
     }
+
     .b-text {
       // branch分支中
     }
