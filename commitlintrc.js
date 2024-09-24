@@ -5,22 +5,19 @@ module.exports = {
       2,
       'always',
       [
+        'build',
+        'ci',
+        'chore',
+        'docs',
         'feat',
         'fix',
         'perf',
-        'docs',
-        'style',
         'refactor',
-        'test',
         'revert',
-        'config',
-        'chore',
-        'bulid',
-        'ci',
-        'Chores'
+        'style',
+        'test',
+        'addLog'
       ]
     ],
-    'subject-full-stop': [0, 'never'],
-    'subject-case:': [0, 'never'],
   },
 }
