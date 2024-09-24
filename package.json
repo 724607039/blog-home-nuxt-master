@@ -58,11 +58,7 @@
     "vue": "^3.4.21"
   },
   
-  "husky": {
-    "hooks": {
-        "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-},
+  "husky": { "hooks": { "pre-commit": "lint-staged", "commit-msg": "commitlint --config .commitlintrc.js -E HUSKY_GIT_PARAMS" } },
   "lint-staged": {
     "*.{js,ts,jsx,tsx}": [
       "prettier --write",
