@@ -3,5 +3,3 @@
 
 npm run lint:lint-staged
 
-
-# node verify-commit.js $1
