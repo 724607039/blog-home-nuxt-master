@@ -1,6 +1,7 @@
-npm run lint:lint-staged
-# npx --no-install commitlint --edit "$1"
 
-node commitlint.config.js $1
+npx --no-install commitlint --edit "$1"
+
+npm run lint:lint-staged
+
 
 # node verify-commit.js $1
