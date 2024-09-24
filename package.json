@@ -59,11 +59,13 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "commit-msg": "commitlint --config .commitlintrc.cjs -E HUSKY_GIT_PARAMS"
+      "commit-msg": "commitlint --config .commitlintrc.js -E HUSKY_GIT_PARAMS"
     }
   },
+  
   "lint-staged": {
     "*.{js,ts,jsx,tsx}": [
+      "eslint --fix -c ./eslint.config.js",
       "prettier --write",
       "eslint --fix",
       "git add"
