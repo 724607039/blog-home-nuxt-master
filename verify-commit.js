@@ -9,6 +9,7 @@ const commitRE =
   /^(feat|fix|docs|style|refactor|perf|test|build|ci|chore|release)(\(.+\))?: .{1,50}/
 
 if (!commitRE.test(msg)) {
+  console.log('被执行了')
   console.error(
     `  ${chalk.bgRed.white(' ERROR ')} ${chalk.red('不合法的 commit 消息格式')}\n\n` +
       chalk.red('  请使用正确的提交格式:\n\n') +
