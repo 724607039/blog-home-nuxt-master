@@ -25,4 +25,6 @@ module.exports = {
   },
 }
 
-// git commit -m 'feat(project-setup): 搭建基'
+// git commit -m 'feat(project-setup): 搭建基础'
+
+// feat(project-setup): 搭建基础
