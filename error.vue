@@ -66,7 +66,7 @@
       height: 40vh;
     }
     .b-text {
-      // branch分支中
+      // branch分支
     }
   }
   // 分支代码
