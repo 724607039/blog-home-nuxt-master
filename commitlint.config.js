@@ -24,3 +24,5 @@ module.exports = {
     'subject-case': [0, 'never'],
   },
 }
+
+// git commit -m 'feat(project-setup): 搭建基'
